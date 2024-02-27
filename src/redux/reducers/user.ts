@@ -1,48 +1,25 @@
-// reducers.ts
-import {
-  UserActionTypes,
-  ADD_USER_REQUEST,
-  ADD_USER_SUCCESS,
-  ADD_USER_FAILURE,
-} from "../actions/addUser";
+import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { User } from "../../interfaces/types";
 
 export interface UserState {
-  data: User[];
-  loading: boolean;
-  error: string | null;
+  he: User[];
 }
 
 const initialState: UserState = {
-  data: [],
-  loading: false,
-  error: null,
+  he: [],
 };
 
-export const userReducer = (
-  state = initialState,
-  action: UserActionTypes
-): UserState => {
-  switch (action.type) {
-    case ADD_USER_REQUEST:
-      return {
-        ...state,
-        loading: true,
-        error: null,
-      };
-    case ADD_USER_SUCCESS:
-      return {
-        ...state,
-        loading: false,
-        data: [...state.data, action.payload],
-      };
-    case ADD_USER_FAILURE:
-      return {
-        ...state,
-        loading: false,
-        error: action.error,
-      };
-    default:
-      return state;
-  }
-};
+const userReducer = createSlice({
+  name: "UserState",
+  initialState,
+
+  reducers: {
+    setUser: (state, action: PayloadAction<User>) => {
+      state.he.push(action.payload);
+    },
+  },
+});
+
+export const { setUser } = userReducer.actions;
+
+export default userReducer.reducer;
