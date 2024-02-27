@@ -11,7 +11,7 @@ const NavBar = () => {
         <Navbar.Brand as={NavLink} to={"/"}>
           No-Spoiler
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={NavLink} to={"/"}>
