@@ -3,7 +3,7 @@ import { Button, Card, Col, Row } from "react-bootstrap";
 const OurServices = () => {
   return (
     <>
-      <Row className="w-100 justify-content-center align-items-center">
+      <Row className="w-100 justify-content-center align-items-center mt-1">
         <h2>Our Service</h2>
       </Row>
       <Row className="justify-content-center align-items-center mt-1 g-4 ">

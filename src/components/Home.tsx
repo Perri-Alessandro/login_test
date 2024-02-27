@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import viteLogo from "/vite.svg";
 
 const Home = () => (
-  <Row className="flex-column flex-md-row justify-content-between align-items-center mb-3 h-100">
+  <Row className="flex-column flex-md-row justify-content-between align-items-center mb-3 h-100 mt-1">
     <Col xs={12} className="mb-3">
       <p className="fw-bold fs-2">Xxxxxx Rpc</p>
     </Col>

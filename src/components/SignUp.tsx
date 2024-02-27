@@ -20,7 +20,7 @@ const SignUp = () => {
   };
 
   return (
-    <Row className="justify-content-center align-items-center">
+    <Row className="justify-content-center align-items-center mt-1">
       <Col xs={12}>
         <h2>Sign Up</h2>
       </Col>

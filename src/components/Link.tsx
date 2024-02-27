@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Link = () => {
   return (
-    <Row className="justify-content-center align-items-center">
+    <Row className="justify-content-center align-items-center mt-1">
       <Col className="mb-3" xs={12}>
         <h2>Link</h2>
       </Col>
