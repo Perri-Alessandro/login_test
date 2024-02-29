@@ -27,7 +27,7 @@ const NavBar = () => {
               <NavDropdown.Item as={NavLink} to={"/SignUp"}>
                 Sign Up
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to={"/ooo"}>
+              <NavDropdown.Item as={NavLink} to={"/Login"}>
                 LogIn
               </NavDropdown.Item>
               <NavDropdown.Divider />

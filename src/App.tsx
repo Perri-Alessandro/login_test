@@ -9,6 +9,7 @@ import OurServices from "./components/OurServices";
 import Link from "./components/Link";
 import SignUp from "./components/SignUp";
 import { useEffect, useState } from "react";
+import Login from "./components/Login";
 
 function App() {
   const [hideP, setHideP] = useState(window.innerWidth);
@@ -33,6 +34,7 @@ function App() {
             <Route path="/OurServices" element={<OurServices />} />
             <Route path="/Link" element={<Link />} />
             <Route path="/SignUp" element={<SignUp />} />
+            <Route path="/Login" element={<Login />} />
           </Routes>
         </main>
         <Routes>

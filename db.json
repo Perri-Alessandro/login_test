@@ -16,74 +16,16 @@
         "email": "luigi@example.com",
         "password": "securepassword",
         "loggedIn": false
-      },
-      {
-        "id": "7d68",
-        "name": "Nuovo Utente",
-        "email": "nuovo@example.com",
-        "password": "password123"
-      },
-      {
-        "id": "7def",
-        "name": "Nuovo Utente",
-        "email": "nuovo@example.com",
-        "password": "password123"
-      },
-      {
-        "id": "1f53",
-        "name": "Nuovo Utente",
-        "email": "nuovo@example.com",
-        "password": "password123"
-      },
-      {
-        "id": "36a5",
-        "name": "ultima prova",
-        "email": "nuovo@example.com",
-        "password": "password123"
-      },
-      {
-        "id": "5db4",
-        "name": "ultima prova",
-        "email": "nuovo@example.com",
-        "password": "password123"
-      },
-      {
-        "id": "94de",
-        "name": "ultima prova",
-        "email": "nuovo@example.com",
-        "password": "password123"
-      },
-      {
-        "id": "cb65",
-        "name": "ultima prova",
-        "email": "nuovo@example.com",
-        "password": "password123"
       }
     ],
-    "login": [
+    "tokens": [
       {
-        "token": "ahz3838399200xx",
-        "id": "38c3"
+        "userId": "1",
+        "token": "ahz3838399200xx"
       },
       {
-        "token": "ahz3838399300xx",
-        "id": "34b3"
-      },
-      {
-        "token": "ahz3838399400xx",
-        "id": "90a8"
-      },
-      {
-        "token": "ahz3838399500xx",
-        "id": "c8a3"
-      },
-      {
-        "token": "ahz3838399600xx",
-        "id": "6116"
-      },
-      {
-        "token": "ahz3838399700xx",
-        "id": "4aec"
+        "userId": "2",
+        "token": "ahz3838399300xx"
       }
     ]
   }
